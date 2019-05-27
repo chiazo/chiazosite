@@ -16,6 +16,10 @@
     border: none !important;
 }
 
+.site-header {
+    top: 10%;
+}
+
 
 .headline-grid {
     display: grid;
@@ -41,7 +45,7 @@
     box-shadow: 30px 20px 0 0 #ffde75;
     transition: all 6 s ease-in-out;
     -webkit-transition: all 6 s ease;
-    background: url("/images/headshot2.jpg");  
+    background: url("/images/headshot3.jpg");  
 }
 
 .highlight {
