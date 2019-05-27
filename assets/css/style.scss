@@ -37,7 +37,9 @@
 
 #head-img {
     box-shadow: 30px 20px 0 0 #ffde75;
-    position:absolute;
+    position:relative;
+  
+  margin:0 auto;
   left:0;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
