@@ -28,12 +28,12 @@
     grid-column-gap: 60px;
 }
 
-.headline-grid img {
-    max-width: 350px;
-    position: relative;
-   /* top: 50%; */
-   /* translate: translatey(-50%); */
-}
+// .headline-grid img {
+//     max-width: 350px;
+//     position: relative;
+//    /* top: 50%; */
+//    /* translate: translatey(-50%); */
+// }
 
 .head-img {
     box-shadow: 30px 20px 0 0 #ffde75;
@@ -50,7 +50,7 @@
 
 .head-img img {
     position: absolute;
-    
+    max-width: 350px;
 }
 
 .headshot-top:hover {
