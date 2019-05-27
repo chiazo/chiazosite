@@ -35,7 +35,7 @@
    /* translate: translatey(-50%); */
 }
 
-.head-img {
+#head-img {
     box-shadow: 30px 20px 0 0 #ffde75;
     position:absolute;
   left:0;
@@ -46,8 +46,7 @@
 
 }
 
-.headshot-top:hover {
-    box-shadow: 30px 20px 0 0 #ffde75;
+#head-img img.headshot-top:hover {
     opacity: 0;
 }
 
