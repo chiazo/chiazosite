@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "";
+@import "minima";
 
 .site-desc {
     font-family: neuzeit-grotesk-extra-conden, sans-serif;
@@ -18,7 +18,7 @@
 
 .site-header {
     top: 10%;
-    margin-top: 15px;
+    margin-top: 21px;
 }
 
 
@@ -36,17 +36,19 @@
 }
 
 .head-img {
-    transition: all 3 s ease-in-out;
-    -webkit-transition: all 3 s ease;
     box-shadow: 30px 20px 0 0 #ffde75;
+    position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 
 }
 
-.head-img:hover {
+.headshot-top:hover {
     box-shadow: 30px 20px 0 0 #ffde75;
-    transition: all 3 s ease-in-out;
-    -webkit-transition: all 3 s ease;
-    background: url("/images/headshot3.jpg");  
+    opacity: 0;
 }
 
 .highlight {
