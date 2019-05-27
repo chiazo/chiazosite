@@ -13,14 +13,14 @@
 .headline-grid {
     display: grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 40px;
+    grid-column-gap: 60px;
 }
 
 .headline-grid img {
     max-width: 350px;
     position: relative;
     top: 50%;
-    translate: translatey(-50%);
+   /* translate: translatey(-50%); */
 }
 
 .head-img {
