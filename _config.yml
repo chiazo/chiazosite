@@ -9,6 +9,8 @@ show_excerpts: false # set to true to show excerpts on the homepage
 
 url: http://chiazo.github.io
 
+timezone: America/San Francisco
+
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
@@ -47,6 +49,9 @@ minima:
 # Build settings
 theme: jekyll-theme-minimal
 
+paginate_path: /page/:num/
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-pagniate
