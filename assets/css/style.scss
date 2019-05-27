@@ -30,7 +30,9 @@
 }
 
 .head-img:hover {
-    box-shadow: 40px 30px 0 0 #ffde75;
+    box-shadow: 30px 20px 0 0 #ffde75;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
     
 }
 
