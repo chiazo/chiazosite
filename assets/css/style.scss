@@ -32,14 +32,15 @@
 
 .head-img:hover {
     box-shadow: 30px 20px 0 0 #ffde75;
+    transition: all 6 s ease-in-out;
+    -webkit-transition: all 6 s ease;
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
     
 }
 
 .head-wrap h2 .highlight {
-    color: #ffde75;
-    box-shadow: 0 10px 0 0 black;
+    box-shadow: 0 10px 0 -5px #ffde75;
 }
 
 .head-text {
