@@ -2,8 +2,8 @@ title: Chiazo Agina
 author: Chiazo
 email: chiazo@live.unc.edu
 description: > # this means to ignore newlines until "show_exerpts:"
-  ✨ Hi! I'm Chiazo - a computer science student at Carolina. I enjoy making music, enhancing
-  the language learning process, and bingeing video essays on Youtube ✨
+  ✨ Hi! I'm Chiazo, a computer science student at Carolina. I enjoy making music, enhancing
+  the language learning process, and binge watching video essays on Youtube ✨
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -26,7 +26,7 @@ minima:
     # flickr:   jekyll
     instagram: chiazo.h
     linkedin: chiazo
-    # pinterest: jekyll
+    email: chiazo@live.unc.edu
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
