@@ -17,10 +17,20 @@
 }
 
 .site-header {
+    background-color: rgba($color: white, $alpha: 0.95);
+    position: fixed;
     top: 10%;
     margin-top: 21px;
 }
 
+.site-title {
+    font-size: 1.7rem;
+    color: rgb(3, 3, 3);
+}
+
+.site-title: hover {
+    color: #ffde75;
+}
 
 .headline-grid {
     display: grid;
