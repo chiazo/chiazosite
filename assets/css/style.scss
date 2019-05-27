@@ -33,21 +33,15 @@
 .head-img {
     transition: all 3 s ease-in-out;
     -webkit-transition: all 3 s ease;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
-.head-img::after {
     box-shadow: 30px 20px 0 0 #ffde75;
+
 }
 
 .head-img:hover {
     box-shadow: 30px 20px 0 0 #ffde75;
     transition: all 6 s ease-in-out;
     -webkit-transition: all 6 s ease;
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    
+    background: url("/images/headshot2.jpg");  
 }
 
 .highlight {
