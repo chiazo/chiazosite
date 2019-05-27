@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hmm, Lemme Think For A Second...
+title: Musings
 permalink: /musings/
 ---
 

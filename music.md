@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Music
+title: Music
 permalink: /music/
 ---
 
