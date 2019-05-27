@@ -60,6 +60,15 @@ a:hover, a:active, .page-link, a.site-title:hover {
     color: #ffde75;
 }
 
+.fas.fa-arrow-down {
+
+    color: #ffde75;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+font-size: 50px;
+}
+
 .site-desc {
     font-family: 'Molengo', sans-serif;
     font-style: normal;
@@ -89,15 +98,26 @@ body {
     color: rgb(3, 3, 3);
 }
 
+// PANEL CSS
+
+.panel {
+    flex: 1 1 50%;
+    position: relative;
+    border: 1px solid #efefef;
+    margin: 30px;
+}
+
+.panel h2 {
+    // margin: 0;
+}
+
+.panel-content {
+    padding: 30px 30px 30px;
+}
 
 
 
-// .headline-grid img {
-//     max-width: 350px;
-//     position: relative;
-//    /* top: 50%; */
-//    /* translate: translatey(-50%); */
-// }
+
 
 
 
