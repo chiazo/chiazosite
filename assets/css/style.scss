@@ -24,7 +24,8 @@
 }
 
 .head-img {
-    transition: .7 s;
+    transition: all 1 s ease-in-out;
+    -webkit-transition: all 1 s ease;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
@@ -36,7 +37,7 @@
     
 }
 
-.highlight {
+.head-wrap h2 .highlight {
     color: #ffde75;
 }
 
