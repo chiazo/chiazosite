@@ -19,11 +19,15 @@
 .headline-grid img {
     max-width: 350px;
     position: relative;
-    top: 50%;
+   /* top: 50%; */
    /* translate: translatey(-50%); */
 }
 
 .head-img {
     box-shadow: 0 0 0 0 #55dd55;
     transition: .2 s;
+}
+
+.head-img:hover {
+    box-shadow: 0 1px 8px black;
 }
