@@ -10,11 +10,12 @@
     font-weight: 900;
 }
 
-.site-header {
+.site-header, .site-footer h-card {
     font-family: neuzeit-grotesk-extra-conden, sans-serif;
     font-style: normal;
     border: none !important;
 }
+
 
 .headline-grid {
     display: grid;
