@@ -27,6 +27,7 @@
     transition: all 3 s ease-in-out;
     -webkit-transition: all 3 s ease;
     -webkit-filter: grayscale(100%);
+    box-shadow: 30px 20px 0 0 #ffde75;
     filter: grayscale(100%);
 }
 
@@ -40,7 +41,7 @@
 }
 
 .highlight {
-    box-shadow: 0 16px 0 0 #ffde75;
+    box-shadow: 0 10px 0 0 #ffde75;
 }
 
 .head-text {
