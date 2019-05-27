@@ -24,12 +24,12 @@
 }
 
 .head-img {
-    box-shadow: 0 1px 8px black;
     transition: .2 s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .head-img:hover {
-    box-shadow: 0 0 0 0 white;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    box-shadow: 40px 30px 0 0 #ffde75;
+    
 }
