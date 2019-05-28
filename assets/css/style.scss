@@ -120,10 +120,21 @@ body {
 
 .projects {
     max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: flex-end;
 }
 
 .panel {
-    flex: 1 1 50%;
+    flex: 1 1 40%;
+    // max-width: 50%;
+    // width: 50%;
+    min-height: 420px;
+    max-height: 430px;
+    min-width: 30%;
     position: relative;
     border: 1px solid #efefef;
     margin: 30px;
@@ -132,12 +143,13 @@ body {
 }
 
 .panel-image {
-    background-image: url("/images/headshot1.jpg");
-    height: 200px;
+    // background-image: url("/images/headshot1.jpg");
+   // height: 200px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     margin: 10px;
+    background-color: #fabaca;
 }
 
 .panel:hover {
@@ -145,13 +157,15 @@ body {
 }
 
 .panel h1 {
-    margin: 0;
+  text-align: center;
+  width: 100%;
 }
 
 .subtitle {
     margin: 0 0 15px;
     font-weight: 700;
     color: #6ca75d;
+    text-align: center;
 }
 
 .panel p {
@@ -163,8 +177,6 @@ body {
 .panel-content {
     padding: 30px 30px 30px;
 }
-
-
 
 
 
