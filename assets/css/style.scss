@@ -45,6 +45,10 @@ h5 {
   color: #444444;
 }
 
+h1 {
+    font-weight: 900;
+}
+
 a:hover {
   text-decoration: none;
   color: #ffde75;
@@ -104,10 +108,16 @@ a.site-title {
   font-size: 30px;
   color: black;
 }
-.site-nav::after {
-    border-style: dashed;
-    border: 1px solid purple;
+.navbar::after {
+    // content: "";
+    // display: block;
+    // margin: 0 auto;
+    // width: 90%;
+    // padding-top: 12px;
+    // border-bottom: 1px solid grey;
  }
+
+
 a:hover,
 a:active,
 .page-link,
@@ -117,7 +127,7 @@ a.site-title:hover,
 }
 
 .fas.fa-arrow-down {
-  color: rgb(190, 190, 190);
+  color: rgb(224, 224, 224);
 
   left: 50%;
   position: absolute;
@@ -137,7 +147,7 @@ a.site-title:hover,
 .footer-copyright {
   font-weight: 900;
   border: none !important;
-  color: #444444;
+
 }
 
 body,
@@ -156,7 +166,8 @@ h2 {
 
 .site-title {
   font-size: 1.7rem;
-  color: rgb(3, 3, 3);
+  color: black;
+  
 }
 
 // PANEL CSS
@@ -188,6 +199,7 @@ h2 {
 .panel-image {
   height: 140px;
   width: 94%;
+  border: 1.4px solid lightgray;
   position: absolute;
   bottom: 0px;
   background-size: cover;
@@ -222,7 +234,7 @@ h2 {
 }
 
 .panel-content h1 {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffde75 90%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #ffffff 40%);
 }
 
 .social-media-list li a {
