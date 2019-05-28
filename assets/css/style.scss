@@ -75,9 +75,9 @@ a:hover {
   font-size: 21px;
 }
 
-a,
-a:visited {
-  color: #9e3838;
+.panel a, .post-content a{
+    color: black;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, #ffb5b5 30%);
 }
 
 .img-fill {
@@ -94,15 +94,20 @@ a:visited {
   color: #ffde75;
 }
 
-.page-link a {
-  color: #444444;
+
+a.page-link {
+    color: #444444;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 80%, #ffde75 20%);
 }
 
 a.site-title {
   font-size: 30px;
-  color: #1a1919;
+  color: black;
 }
-
+.site-nav::after {
+    border-style: dashed;
+    border: 1px solid purple;
+ }
 a:hover,
 a:active,
 .page-link,
@@ -181,7 +186,10 @@ h2 {
 }
 
 .panel-image {
-  height: 100px;
+  height: 140px;
+  width: 94%;
+  position: absolute;
+  bottom: 0px;
   background-size: cover;
   background-position: 60% 40%;
   background-repeat: no-repeat;
@@ -201,7 +209,6 @@ h2 {
 .subtitle {
   margin: 0 0 15px;
   font-weight: 700;
-  color: #910351;
   text-align: center;
 }
 
@@ -211,6 +218,11 @@ h2 {
 
 .panel-content {
   padding: 30px 30px 30px;
+
+}
+
+.panel-content h1 {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffde75 90%);
 }
 
 .social-media-list li a {
