@@ -118,11 +118,30 @@ body {
 
 // PANEL CSS
 
+.projects {
+    max-width: 1200px;
+}
+
 .panel {
     flex: 1 1 50%;
     position: relative;
     border: 1px solid #efefef;
     margin: 30px;
+    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.panel-image {
+    background-image: url("/images/headshot1.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.panel:hover {
+    box-shadow: 5px 9px 10px rgba(0, 0, 0, 0.2);
 }
 
 .panel h1 {
@@ -177,7 +196,7 @@ h2 {
 
 @media screen and (min-width: 543px) {
     .head-img {
-        box-shadow: -20px -20px 0 0 #ffde75;
+        box-shadow: 20px 20px 0 0 #ffde75;
         position:relative;
         max-width: 100%;
         max-height: 100%;
@@ -188,7 +207,7 @@ h2 {
     }
     
     .head-img:hover {
-        box-shadow: -20px -20px 0 0 #ffde75;
+        box-shadow: 20px 20px 0 0 #ffde75;
         transition: all 10 s ease-in-out;
         -webkit-transition: all 10 s ease;
     }
