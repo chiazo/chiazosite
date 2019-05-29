@@ -37,9 +37,17 @@ html {
 
 .column {
   float: left;
-  width: 50%;
   padding: 30px;
+  text-align: justify;
+}
 
+.col-img {
+  width: 50%;
+}
+
+.col-txt {
+  width: 45%;
+  text-align: justify;
 }
 
 .column img {
