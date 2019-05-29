@@ -35,6 +35,37 @@ html {
   box-sizing: inherit;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+
+}
+
+.column img {
+  max-width: 320px;
+  max-height: 400px;
+  border: 13px ridge #aa592a;
+}
+
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .column img {
+    max-width: 320px;
+    max-height: 400px;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -114,6 +145,10 @@ a:hover {
   
   }
 
+  .head-text {
+    text-align: justify;
+    padding: 30px;
+  }
 
   .headline-grid{
 
@@ -384,6 +419,10 @@ h2 {
 
 .highlight-purp {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, #e8b5ff 30%);
+}
+
+.highlight-purp2 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, .2) 90%, #3a0bbb 30%);
 }
 
 div {
