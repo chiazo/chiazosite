@@ -46,6 +46,8 @@ minima:
 # - about.md
 
 # Build settings
+
+include: ['_pages']
 theme: jekyll-theme-minimal
 
 paginate_path: /page/:num/
@@ -55,4 +57,4 @@ plugins:
  - jekyll-seo-tag
  - jekyll-pagniate
 
- include: ['_pages']
+

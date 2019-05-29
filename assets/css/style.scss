@@ -4,14 +4,13 @@
 
 @import "minima";
 
-@media screen and (min-width: 800px) {
-}
+
 
 .footer-copyright {
   text-align: center;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .wrapper {
     max-width: 1410px;
     width: 100%;
@@ -23,7 +22,7 @@
 
 html {
   line-height: 1.6;
-
+  box-sizing: border-box;
   font-family: "Molengo", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -54,8 +53,52 @@ a:hover {
   color: #ffde75;
 }
 
+// PHOTO GRID GALLERY CSS
 
-@media (max-width: 748px) {
+.container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+}
+
+.respon-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cell img {
+  display: block;
+  
+}
+
+.cell {
+  margin: 1rem;
+  
+}
+
+@media screen and (min-width: 600px) {
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .cell {
+    width: calc(50% - 2rem);
+
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(33.333% - 2rem);
+  }
+}
+
+// OTHER CSS
+
+@media screen and (max-width: 748px) {
 
   .head-img img {
     max-width: 70%;
@@ -79,7 +122,7 @@ a:hover {
   }
 }
 
-@media (min-width: 749px) { // 749px is when box shadow of pic doesn't look weird
+@media screen and (min-width: 749px) { // 749px is when box shadow of pic doesn't look weird
   .headline-grid {
     max-width: 1230px;
     position: relative;
@@ -223,6 +266,11 @@ a.site-title:hover,
 
 .site-footer {
   text-align: center;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body,
