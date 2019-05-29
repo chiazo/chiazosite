@@ -45,7 +45,7 @@ html {
 .column img {
   max-width: 320px;
   max-height: 400px;
-  border: 13px ridge #aa592a;
+  border: 13px double #cc8880;
 }
 
 .row::after {
@@ -422,7 +422,7 @@ h2 {
 }
 
 .highlight-purp2 {
-  background: linear-gradient(180deg, rgba(255, 255, 255, .2) 90%, #3a0bbb 30%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, .2) 90%, #c4c4c4 30%);
 }
 
 div {
