@@ -68,12 +68,12 @@ a:hover {
 
 .cell img {
   display: block;
-  
+  object-fit: cover;
 }
 
 .cell {
   margin: 1rem;
-  
+
 }
 
 @media screen and (min-width: 600px) {
