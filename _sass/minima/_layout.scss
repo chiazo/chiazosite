@@ -24,7 +24,7 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: rgb(29, 29, 29);
   }
 }
 
@@ -48,9 +48,10 @@
     line-height: 0;
     padding-top: 10px;
     text-align: center;
+    border: none;
 
     > svg path {
-      fill: $grey-color-dark;
+      fill: #ffde75;
     }
   }
 
