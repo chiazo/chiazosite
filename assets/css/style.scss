@@ -365,7 +365,7 @@ h2 {
 .panel-image {
   height: 140px;
   width: 94%;
-  border: 1.4px solid lightgray;
+  border: 5px double rgb(138, 138, 138);
   position: absolute;
   bottom: 0px;
   background-size: cover;
@@ -373,6 +373,11 @@ h2 {
   background-repeat: no-repeat;
   margin: 10px;
   background-color: #fabaca;
+  transition: transform .2s;
+}
+
+.panel-image:hover {
+  transform: scale(1.2);
 }
 
 .panel:hover {
