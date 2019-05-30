@@ -1,7 +1,5 @@
 ---
-layout: default
+layout: code
 title: Code
 permalink: /code/
 ---
-
-enjoy another temp page about my code
