@@ -131,14 +131,14 @@ a:hover {
     flex-direction: row;
   }
 
-  .cell {
+  .cell, .cell-p {
     width: calc(50% - 2rem);
 
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .cell {
+  .cell, .cell-p {
     width: calc(33.333% - 2rem);
   }
 }
