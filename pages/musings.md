@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: gallery
 title: Musings
 permalink: /musings/
 ---
 
-a place for my thoughts to spill out. under revision.
+a place for my thoughts to spill out. 
