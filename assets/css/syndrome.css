@@ -44,6 +44,10 @@
   background: none;
   color: #444444; }
 
+.no-outline > .cell {
+  border: transparent;
+}
+
 .transp-button:hover {
   background-color: #ffffb1; }
 
