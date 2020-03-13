@@ -27,6 +27,7 @@
 [type="submit"], button,
 .a-button {
   background: #b4d0fa3a;
+  margin: 1rem;
   color: #3448ff;
   border: 2px solid #b4d0fa3a; }
 
@@ -462,7 +463,7 @@ td {
   z-index: 1; }
 
 section {
-  padding: 2rem;
+  padding: 1rem 1rem 0 1rem;
   margin: 0 0 0; }
 
 @media (min-height: 300px) {
