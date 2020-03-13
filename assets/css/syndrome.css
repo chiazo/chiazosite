@@ -22,12 +22,19 @@
   max-width: 90%;
   margin-bottom: 3%;
   margin-top: 10px; }
+  @media screen and (max-width: 980px) {
+    [type="button"],
+    [type="submit"], button,
+    .a-button,
+    .yellow-button,
+    .transp-button,
+    .green-button {
+      max-width: 100%; } }
 
 [type="button"],
 [type="submit"], button,
 .a-button {
   background: #b4d0fa3a;
-  margin: 1rem;
   color: #3448ff;
   border: 2px solid #b4d0fa3a; }
 
@@ -44,10 +51,6 @@
 .transp-button {
   background: none;
   color: #444444; }
-
-.no-outline > .cell {
-  border: transparent;
-}
 
 .transp-button:hover {
   background-color: #ffffb1; }
@@ -183,6 +186,10 @@ body {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: min-content 1fr; }
+  @media screen and (max-width: 980px) {
+    body {
+      display: block;
+      grid-template-columns: none; } }
 
 /* Anchors */
 a {
@@ -383,6 +390,16 @@ td {
 .text-headers {
   text-align: center; }
 
+@media screen and (max-width: 980px) {
+  .site-header {
+    background-color: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #d7d6d6;
+    position: relative; } }
+
 /* landing page & image */
 @media screen and (max-width: 748px) {
   .headline-grid {
@@ -450,7 +467,8 @@ td {
   overflow: hidden;
   color: #1f59b0;
   border-right: 2px solid lightgray;
-  white-space: nowrap; }
+  white-space: nowrap;
+  display: block; }
 
 .on-scroll {
   top: 0; }
@@ -466,11 +484,6 @@ section {
   padding: 1rem 1rem 0 1rem;
   margin: 0 0 0; }
 
-@media (min-height: 300px) {
-  .navigation ul {
-    position: sticky;
-    top: 0; } }
-
 .navigation a {
   display: block;
   height: 60%; }
@@ -484,14 +497,15 @@ section {
 .navigation a.current {
   background-color: white; }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 980px) {
   .navigation {
     width: 100%;
     height: auto;
     position: relative;
     padding: 0;
     margin: 0;
-    top: 30px; }
+    top: 30px;
+    border-right: none; }
   .navigation a {
     display: block; }
   .navigation ul {
