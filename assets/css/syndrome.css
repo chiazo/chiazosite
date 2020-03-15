@@ -468,7 +468,7 @@ td {
   top: 160px;
   overflow: hidden;
   color: #1f59b0;
-  border-right: 2px solid lightgray;
+  /* border-right: 2px solid lightgray; */
   white-space: nowrap;
   display: inline-block; }
 
@@ -495,11 +495,15 @@ label[for="hamburger"], #hamburger {
     display: block; } }
 
 .landing {
-  margin-left: 220px;
+  margin-left: 250px;
   height: auto;
   padding: 0 3rem 40rem;
   width: 100%;
-  z-index: 1; }
+  z-index: 1;
+  border-right: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+}
+
 
 section {
   padding: 1rem 1rem 0 1rem;
