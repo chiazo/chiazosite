@@ -496,7 +496,11 @@ label[for="hamburger"], #hamburger {
   #navigation ul {
     display: none; }
   #navigation input:checked ~ ul {
-    display: block; } }
+    display: block; } 
+  .landing {
+    border: none;
+  }
+  }
 
 .landing {
   margin-left: 250px;
