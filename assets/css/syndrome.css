@@ -183,7 +183,7 @@ head, body {
 body {
   margin: 0;
   box-sizing: border-box;
-  display: grid;
+  /* display: grid; */
   grid-template-columns: min-content 1fr; }
   @media screen and (max-width: 980px) {
     body {
@@ -358,7 +358,8 @@ td {
   .cell {
     width: calc(50% - 2rem);
     max-width: 100%;
-    min-width: 150px; }
+    /* min-width: 150px;  */
+  }
   .cell-3x3 > .cell {
     width: calc(30% - 2rem);
     min-width: 96px; }
@@ -379,7 +380,10 @@ td {
   margin-bottom: 0;
   z-index: 1000;
   border-bottom: 2px solid #d7d6d6;
-  position: static; }
+  position: static;
+  padding-left: 2rem;
+}
+  
 
 .site-title {
   font-size: 1.7rem;
@@ -498,7 +502,7 @@ label[for="hamburger"], #hamburger {
   margin-left: 250px;
   height: auto;
   padding: 0 3rem 40rem;
-  width: 100%;
+  max-width: 100%;
   z-index: 1;
   border-right: 2px solid lightgray;
   border-left: 2px solid lightgray;
@@ -539,7 +543,7 @@ section {
   .landing {
     margin-left: 0;
     padding: 0;
-    width: 100%; } }
+    max-width: 100%; } }
 
 @media screen and (max-width: 300px) {
   .navigation a {
