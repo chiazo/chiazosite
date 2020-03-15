@@ -497,9 +497,6 @@ label[for="hamburger"], #hamburger {
     display: none; }
   #navigation input:checked ~ ul {
     display: block; } 
-  .landing {
-    border: none;
-  }
   }
 
 .landing {
@@ -547,7 +544,8 @@ section {
   .landing {
     margin-left: 0;
     padding: 0;
-    max-width: 100%; } }
+    max-width: 100%;
+    border: none } }
 
 @media screen and (max-width: 300px) {
   .navigation a {
