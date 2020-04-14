@@ -170,6 +170,9 @@ pre {
   }
 }
 
+.gallery-title {
+  text-align: center;
+}
 
 
 /**
@@ -177,11 +180,11 @@ pre {
  */
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+  max-width:         calc(#{$content-width} - 2px);
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+  // padding-right: $spacing-unit / 2;
+  // padding-left: $spacing-unit / 2;
   @extend %clearfix;
 
   @media screen and (min-width: $on-large) {
