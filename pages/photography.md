@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Photography
+title: My Photography
 permalink: /photography/
 ---
 

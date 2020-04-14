@@ -221,6 +221,10 @@ h1 {
 h4 {
   padding: 20px; }
 
+.gallery-title {
+  text-align: center;
+}
+
 :focus {
   outline: none; }
 
