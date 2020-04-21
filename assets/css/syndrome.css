@@ -187,6 +187,7 @@ body {
   grid-template-columns: min-content 1fr; }
   @media screen and (max-width: 980px) {
     body {
+      margin: 0.5rem;
       display: block;
       grid-template-columns: none; } }
 
