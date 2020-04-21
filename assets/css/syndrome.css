@@ -221,8 +221,13 @@ h1 {
 h4 {
   padding: 20px; }
 
+.main-gallery-title {
+  text-align: center;
+}
+
 .gallery-title {
   text-align: center;
+  margin: 3rem 0 3rem 0;
 }
 
 :focus {
