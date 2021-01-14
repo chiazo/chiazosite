@@ -739,7 +739,7 @@ section {
 }
 
 .home-panel {
-  min-width: 420px;
+  min-height: 420px;
 }
 
 .panel {
