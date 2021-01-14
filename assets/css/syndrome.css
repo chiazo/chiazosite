@@ -738,6 +738,10 @@ section {
   position: relative;
 }
 
+.home-panel {
+  min-width: 420px;
+}
+
 .panel {
   flex: 1;
   flex-basis: 45%;
