@@ -4,7 +4,6 @@
 
 @import "minima";
 
-
 .footer-copyright {
   text-align: center;
 }
@@ -56,7 +55,7 @@ html {
 }
 
 .row::after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
@@ -79,11 +78,10 @@ h3,
 h4,
 h5 {
   line-height: 1.2;
-
 }
 
 h1 {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 a:hover {
@@ -120,20 +118,18 @@ a:hover {
 
 .cell {
   margin: 1rem;
-
 }
 
 @media screen and (min-width: 600px) {
-
   .grid {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
 
-  .cell, .cell-p {
+  .cell,
+  .cell-p {
     width: calc(50% - 2rem);
-
   }
 }
 
@@ -147,19 +143,18 @@ a:hover {
 // OTHER CSS
 
 @media screen and (max-width: 748px) {
-
   .head-img img {
     max-width: 70%;
     max-height: 50%;
     vertical-align: center;
   }
 
-  .head-img, .first-line {
+  .head-img,
+  .first-line {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
     line-height: normal;
-  
   }
 
   .head-text {
@@ -167,14 +162,14 @@ a:hover {
     padding: 30px;
   }
 
-  .headline-grid{
-
+  .headline-grid {
     // padding: 20px;
     margin-bottom: 30px;
   }
 }
 
-@media screen and (min-width: 749px) { // 749px is when box shadow of pic doesn't look weird
+@media screen and (min-width: 749px) {
+  // 749px is when box shadow of pic doesn't look weird
   .headline-grid {
     max-width: 1230px;
     position: relative;
@@ -189,7 +184,7 @@ a:hover {
     grid-template-columns: auto auto;
     grid-column-gap: 30px;
   }
-  
+
   .head-wrap {
     line-height: 40px;
   }
@@ -203,7 +198,7 @@ a:hover {
     font-style: normal;
   }
 
-  .head-img  {
+  .head-img {
     box-shadow: 5px 5px 5px lightgray;
     position: relative;
     max-width: 100%;
@@ -220,8 +215,6 @@ a:hover {
     -webkit-transition: all 10 s ease;
   }
 }
-
-
 
 .social-media-list li a {
   float: left;
@@ -240,8 +233,8 @@ a:hover {
 }
 
 .panel a {
-    color: black;
-    background: none;
+  color: black;
+  background: none;
 }
 
 .panel a:hover {
@@ -259,31 +252,27 @@ a:hover {
   background-image: url("/images/unc1.jpg");
 }
 
-
 .social-media-list li a:hover {
   color: #ffde75;
 }
 
-
 a.page-link {
-    color: #444444;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 80%, #ffde75 20%);
+  color: #444444;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 80%, #ffde75 20%);
 }
 
 a.page-link:hover {
   background: none;
 }
 
-
 .navbar::after {
-    // content: "";
-    // display: block;
-    // margin: 0 auto;
-    // width: 90%;
-    // padding-top: 12px;
-    // border-bottom: 1px solid grey;
- }
-
+  // content: "";
+  // display: block;
+  // margin: 0 auto;
+  // width: 90%;
+  // padding-top: 12px;
+  // border-bottom: 1px solid grey;
+}
 
 a:hover,
 a:active,
@@ -314,7 +303,6 @@ a.site-title:hover,
 .footer-copyright {
   font-weight: 900;
   border: none !important;
-
 }
 
 .site-footer {
@@ -344,7 +332,6 @@ h2 {
 .site-title {
   font-size: 1.7rem;
   color: black;
-  
 }
 
 .main-gallery-title {
@@ -370,7 +357,7 @@ h2 {
   // width: 50%;
   flex-basis: 45%;
   min-width: 300px;
-  height: 420px;
+  height: 300px;
   width: 300px;
   max-width: 25%;
   position: relative;
@@ -395,7 +382,7 @@ h2 {
   background-repeat: no-repeat;
   margin: 10px;
   background-color: #fabaca;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .panel-image:hover {
@@ -423,18 +410,16 @@ h2 {
 
 .panel-content {
   padding: 30px 30px 30px;
-
 }
 
 .panel-content h1 {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #ffffff 40%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #ffffff 40%);
 }
 
 .social-media-list li a {
   border: none;
   color: #444444;
 }
-
 
 .highlight {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #ffde75 40%);
@@ -457,14 +442,15 @@ h2 {
 }
 
 .highlight-purp2 {
-  background: linear-gradient(180deg, rgba(255, 255, 255, .2) 90%, #4444 30%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 90%, #4444 30%);
 }
 
 div {
   display: block;
 }
 
-a.site-title, .site-title {
+a.site-title,
+.site-title {
   font-size: 30px;
   color: black;
 }
