@@ -340,7 +340,8 @@ h2 {
 
 // PANEL CSS
 
-.projects {
+.projects,
+.code {
   max-width: 1200px;
   display: flex;
   align-items: center;
@@ -349,6 +350,14 @@ h2 {
   flex-flow: row wrap;
   align-content: flex-end;
   position: relative;
+}
+
+.code > .panel {
+  height: 300px;
+}
+
+.projects > .panel {
+  height: 420px;
 }
 
 .panel {

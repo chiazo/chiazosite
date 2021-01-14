@@ -727,7 +727,8 @@ section {
 }
 
 /* PANEL GRID */
-.projects {
+.projects,
+.code {
   max-width: 1200px;
   display: flex;
   align-items: center;
@@ -738,12 +739,18 @@ section {
   position: relative;
 }
 
+.code>.panel {
+  height: 300px;
+}
+
+.projects>.panel {
+  height: 420px;
+}
 
 .panel {
   flex: 1;
   flex-basis: 45%;
   min-width: 300px;
-  height: 300px;
   width: 300px;
   max-width: 25%;
   position: relative;
