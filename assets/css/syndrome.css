@@ -738,9 +738,6 @@ section {
   position: relative;
 }
 
-.home-panel {
-  min-height: 420px;
-}
 
 .panel {
   flex: 1;
