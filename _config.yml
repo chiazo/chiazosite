@@ -2,7 +2,6 @@ title: Chiazo Agina
 author: Chiazo
 email: chiazo@live.unc.edu
 description: > # this means to ignore newlines until "show_exerpts:"
-  
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -18,7 +17,7 @@ minima:
   # generate social links in footer
   social_links:
     # twitter: jekyllrb
-    github:  chiazo
+    github: chiazo
     # rss: rss
     # dribbble: jekyll
     # facebook: jekyll
@@ -29,7 +28,6 @@ minima:
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
-    soundcloud: chiazo
     # bandcamp: chiazo
     # microdotblog: jekyll
 
@@ -47,14 +45,12 @@ minima:
 
 # Build settings
 
-include: ['_pages']
+include: ["_pages"]
 theme: jekyll-theme-minimal
 
 paginate_path: /page/:num/
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
- - jekyll-pagniate
-
-
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-pagniate
